@@ -207,6 +207,7 @@ if __name__ == "__main__":
     }
 
     # time format yyyy/mm/dd
+    # Remember to set "times" variable to format yyyy/mm/dd, a list of elements from the start date to end date which you crawl from NYT and BBC news.
     times = ["2023-01-09", "2023-01-10", "2023-01-11", "2023-01-12", "2023-01-13", "2023-01-14", "2023-01-15"]
     model = TopicClustering(cfg)
     model.run(times)
