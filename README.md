@@ -1,7 +1,7 @@
 # Topic Clustering to Hot Event Detection
 We will propose a pipeline for Hot Event Detection based on Topic Clustering problem, experiment and evaluate with different clustering algorithms and improve them to find the most accurate pipeline. Then, use the evaluated model to apply to the Hot Event Detection.
 
-# news-crawler
+# News Crawler
 
 A news crawler for BBC News and New York Times.
 
@@ -31,7 +31,7 @@ Modify `reuters.cfg`, `nytimes.cfg` and `bbc.cfg` in settings folder, the main c
 
 
 
-# hot event detection 
+# Hot Event Detection 
 ## Clustering with public dataset - Topic Clustering
 ### Usage
 
