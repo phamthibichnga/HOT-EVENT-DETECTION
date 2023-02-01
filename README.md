@@ -36,7 +36,7 @@ Modify `reuters.cfg`, `nytimes.cfg` and `bbc.cfg` in settings folder, the main c
 ### Usage
 
 ```bash
-python bbc_crawler.py settings bbc.cfg
+python topic_clustering.py
 ```
 
 
@@ -45,7 +45,7 @@ python bbc_crawler.py settings bbc.cfg
 ## Hot event detection for News 
 ### Usage
 ```bash
-python nytimes_crawler.py nytimes.cfg
+python hot_event_detection.py
 ```
 
 
