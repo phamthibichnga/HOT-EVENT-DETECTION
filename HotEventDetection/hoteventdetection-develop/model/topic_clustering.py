@@ -198,9 +198,6 @@ if __name__ == "__main__":
         'stopwords': "stopword.txt",
         'demonyms' : "demonyms.csv"
     }
-
-    # time format yyyy/mm/dd
-    times = ["2023-01-09", "2023-01-10", "2023-01-11", "2023-01-12", "2023-01-13", "2023-01-14", "2023-01-15"]
     
     model = TopicClustering(cfg)
     model.evaluation()
