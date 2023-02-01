@@ -3,7 +3,7 @@ We will propose a pipeline for Hot Event Detection based on Topic Clustering pro
 
 # news-crawler
 
-A news crawler for BBC News, Reuters and New York Times.
+A news crawler for BBC News and New York Times.
 
 ## Update and Clarification (2021/10/03)
 
@@ -33,4 +33,27 @@ python nytimes_crawler.py nytimes.cfg
 ## Configuration
 
 Modify `reuters.cfg`, `nytimes.cfg` and `bbc.cfg` in settings folder, the main configuration items may be `start_date`, `end_date` and `path`.
+
+
+
+# news-crawler
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
