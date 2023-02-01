@@ -194,7 +194,7 @@ class TopicClustering:
             
 if __name__ == "__main__":
     cfg = {
-        'database': '/home/tuanld/AIC/Nga/HotEventDetection/news-crawler-master/Result_news/',
+        'database': 'path/to/file/news_crawler/',
         'stopwords': "stopword.txt",
         'demonyms' : "demonyms.csv"
     }
@@ -204,14 +204,3 @@ if __name__ == "__main__":
     
     model = TopicClustering(cfg)
     model.evaluation()
-
-
-
-
-'''
-Run : pass tuanld_v0.5
-conda activate taidvt 
-cd /home/tuanld/AIC/Nga/HotEventDetection/hoteventdetection-develop/model
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$"/home/tuanld/miniconda3/lib/"
-CUDA_VISIBLE_DEVICES=3 python /home/tuanld/AIC/Nga/HotEventDetection/hoteventdetection-develop/model/main.py
-'''
