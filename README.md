@@ -47,7 +47,7 @@ python topic_clustering.py
 ```bash
 python hot_event_detection.py
 ```
-Remember to set "times" variable to format yyyy/mm/dd, a list of elements from the start date to end date which you crawl from NYT and BBC news.
+# View the pdf file to better understand our pipeline.
 
 
 
